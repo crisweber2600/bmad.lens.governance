@@ -1,0 +1,4 @@
+# Personal / machine-local files — never committed
+personal/
+*.local.yaml
+*.local.json

@@ -1,0 +1,6 @@
+# Global owners — required reviewers for all governance changes
+* @crisweber2600
+
+# Constitution changes require governance role approval
+constitutions/ @crisweber2600
+policies/ @crisweber2600
