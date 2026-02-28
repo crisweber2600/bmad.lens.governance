@@ -1,0 +1,27 @@
+# Domain.yaml — single source of truth for domain-layer initiatives
+domain: "PrintingMagic"
+domain_prefix: "printingmagic"
+layer: domain
+question_mode: interactive
+created_at: "2026-02-28T21:15:35Z"
+created_by: "Cris Weber"
+target_repos:
+  - release
+  - copilot
+  - governance
+folders:
+  initiatives: "TargetProjects/lens/lens-governance/initiatives/printingmagic/"
+  target_projects: "TargetProjects/printingmagic/"
+  docs: "Docs/printingmagic/"
+docs:
+  root: "docs"
+  domain: "PrintingMagic"
+  service: ""
+  repo: ""
+  feature: ""
+  path: "docs/PrintingMagic"
+branch: "printingmagic"
+gates:
+  - name: tests-pass
+    status: open
+blocks: []
