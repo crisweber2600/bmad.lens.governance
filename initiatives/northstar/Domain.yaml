@@ -1,0 +1,24 @@
+# Domain.yaml — single source of truth for domain-layer initiatives
+domain: "NorthStar"
+domain_prefix: "northstar"
+layer: domain
+question_mode: interactive
+created_at: "2026-02-25T00:00:00Z"
+created_by: "Cris Weber"
+target_repos: []
+folders:
+  initiatives: "TargetProjects/lens/lens-governance/initiatives/northstar/"
+  target_projects: "TargetProjects/northstar/"
+  docs: "Docs/northstar/"
+docs:
+  root: "docs"
+  domain: "NorthStar"
+  service: ""
+  repo: ""
+  feature: ""
+  path: "docs/NorthStar"
+branch: "northstar"
+gates:
+  - name: tests-pass
+    status: open
+blocks: []
