@@ -1,0 +1,62 @@
+# v2 — Lifecycle Contract initiative config
+lifecycle_version: 2
+
+id: finish-northstaret-migration-3a10d3
+name: "Finish NorthStarET Migration"
+layer: feature
+domain: "NorthStar"
+domain_prefix: "northstar"
+service: "migration"
+service_prefix: "migration"
+question_mode: interactive
+jira_ticket: ""
+created_at: "2026-02-25T22:00:13Z"
+prd_complete: true
+created_by: "Cris Weber"
+target_repos:
+  - NorthStarET
+  - OldNorthStar
+docs:
+  root: "docs"
+  domain: "NorthStar"
+  service: "migration"
+  repo: ""
+  feature: "finish-northstaret-migration-3a10d3"
+  path: "docs/NorthStar/migration/feature/finish-northstaret-migration-3a10d3"
+  bmad_docs: "docs/NorthStar/migration/feature/finish-northstaret-migration-3a10d3/BmadDocs"
+
+# v2: Track & Phases (from lifecycle.yaml)
+track: feature
+active_phases:
+  - businessplan
+  - techplan
+  - devproposal
+  - sprintplan
+audiences:
+  - small
+  - medium
+  - large
+  - base
+
+# v2: Named phase status
+phase_status:
+  preplan: complete
+  businessplan: complete
+  techplan: complete
+  devproposal: pr_pending
+  sprintplan: null
+current_phase: devproposal
+
+# v2: Audience promotion status
+audience_status:
+  small_to_medium: complete
+  medium_to_large: pr_pending
+  large_to_base: null
+
+# v2: Initiative root (replaces featureBranchRoot)
+initiative_root: "northstar-migration-finish-northstaret-migration-3a10d3"
+
+# Governance
+constitution_mode: advisory
+scope: service
+coupling: none
