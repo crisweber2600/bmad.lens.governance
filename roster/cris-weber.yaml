@@ -3,13 +3,15 @@
 # Migrated from: _bmad-output/lens-work/roster/cris-weber.yaml
 # Original date: 2026-02-25T00:00:00Z
 # Migrated: 2026-02-26T00:00:00Z
+# Updated: 2026-02-27T00:00:00Z
 
 name: Cris Weber
 email: cris@weber.center
-role: Tech Lead
+role: Architect
 onboarded_at: "2026-02-25T00:00:00Z"
-repos_initiated: []
+repos_initiated:
+  - NorthStarET
 stats:
-  initiatives_started: 0
+  initiatives_started: 1
   initiatives_completed: 0
-  last_active: "2026-02-25T00:00:00Z"
+  last_active: "2026-02-27T00:00:00Z"
