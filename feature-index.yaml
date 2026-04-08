@@ -1,0 +1,35 @@
+features:
+- id: finish-northstaret-migration-3a10d3
+  featureId: finish-northstaret-migration-3a10d3
+  domain: northstar
+  service: migration
+  status: dev
+  phase: dev
+  owner: crisweber2600
+  plan_branch: finish-northstaret-migration-3a10d3-plan
+  related_features:
+    depends_on: []
+    blocks: []
+    related: []
+  updated_at: '2026-04-08T20:34:05Z'
+  summary: >-
+    Migrate NorthStarET from AngularJS to React. EP-001 merged (S-001–S-007),
+    EP-002 open (PR #669).
+  stale: false
+  migrated_from: northstar-migration-finish-northstaret-migration-3a10d3
+- id: 3261-students
+  featureId: 3261-students
+  domain: northstar
+  service: nextgen
+  status: preplan
+  phase: preplan
+  owner: crisweber2600
+  plan_branch: 3261-students-plan
+  related_features:
+    depends_on: []
+    blocks: []
+    related: []
+  updated_at: '2026-04-08T20:34:19Z'
+  summary: 'Migrated from legacy branch: northstar-nextgen-3261-students'
+  stale: false
+  migrated_from: northstar-nextgen-3261-students

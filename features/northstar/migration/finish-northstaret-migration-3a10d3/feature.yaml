@@ -1,0 +1,49 @@
+name: Finish NorthStarET Migration
+description: >-
+  Migrate NorthStarET from AngularJS to React — feature branch tracking all
+  epics from API camelCase migration through Angular bundle removal.
+featureId: finish-northstaret-migration-3a10d3
+domain: northstar
+service: migration
+phase: dev
+track: full
+milestones:
+  businessplan: '2026-02-25T00:00:00Z'
+  techplan: '2026-02-25T00:00:00Z'
+  sprintplan: '2026-03-03T00:00:00Z'
+  dev-ready: '2026-03-03T22:00:00Z'
+  dev-complete: null
+team:
+- username: crisweber2600
+  role: lead
+dependencies:
+  depends_on: []
+  depended_by: []
+target_repos: []
+links:
+  retrospective: null
+  issues: []
+  pull_request: null
+priority: high
+created: '2026-02-25T22:00:13Z'
+updated: '2026-04-08T20:34:05Z'
+phase_transitions:
+- phase: preplan
+  timestamp: '2026-02-25T22:00:13Z'
+  user: crisweber2600
+- phase: businessplan
+  timestamp: '2026-02-25T22:00:13Z'
+  user: crisweber2600
+- phase: techplan
+  timestamp: '2026-02-25T22:00:13Z'
+  user: crisweber2600
+- phase: sprintplan
+  timestamp: '2026-03-03T00:00:00Z'
+  user: crisweber2600
+- phase: dev
+  timestamp: '2026-03-03T22:05:00Z'
+  user: crisweber2600
+docs:
+  path: _bmad-output/northstar/migration/finish-northstaret-migration-3a10d3
+  governance_docs_path: features/northstar/migration/finish-northstaret-migration-3a10d3/docs
+migrated_from: northstar-migration-finish-northstaret-migration-3a10d3

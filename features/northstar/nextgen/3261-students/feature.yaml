@@ -1,0 +1,35 @@
+name: 3261 Students
+description: 'Migrated from legacy branch: northstar-nextgen-3261-students'
+featureId: 3261-students
+domain: northstar
+service: nextgen
+phase: preplan
+track: full
+milestones:
+  businessplan: null
+  techplan: null
+  sprintplan: null
+  dev-ready: null
+  dev-complete: null
+team:
+- username: crisweber2600
+  role: lead
+dependencies:
+  depends_on: []
+  depended_by: []
+target_repos: []
+links:
+  retrospective: null
+  issues: []
+  pull_request: null
+priority: medium
+created: '2026-04-08T20:34:19Z'
+updated: '2026-04-08T20:34:19Z'
+phase_transitions:
+- phase: preplan
+  timestamp: '2026-04-08T20:34:19Z'
+  user: crisweber2600
+docs:
+  path: _bmad-output/northstar/nextgen/3261-students
+  governance_docs_path: features/northstar/nextgen/3261-students/docs
+migrated_from: northstar-nextgen-3261-students
