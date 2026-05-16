@@ -38,7 +38,7 @@ features:
   featureSlug: sso
   domain: bridge
   service: clever
-  status: expressplan-complete
+  status: finalizeplan-complete
   track: express
   owner: Cris Weber
   plan_branch: bridge-clever-sso-plan
@@ -49,4 +49,4 @@ features:
   created: '2026-05-16T16:55:52Z'
   updated_at: '2026-05-16T16:55:52Z'
   summary: ''
-  phase: expressplan-complete
+  phase: finalizeplan-complete

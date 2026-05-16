@@ -4,7 +4,7 @@ featureId: bridge-clever-sso
 featureSlug: sso
 domain: bridge
 service: clever
-phase: expressplan-complete
+phase: finalizeplan-complete
 track: express
 milestones:
   businessplan: null
@@ -28,7 +28,7 @@ target_repos:
 links:
   retrospective: null
   issues: []
-  pull_request: null
+  pull_request: https://github.com/crisweber2600/NorthStarET.BMAD/pull/24
 priority: medium
 created: '2026-05-16T16:55:52Z'
 updated: '2026-05-16T16:55:52Z'
