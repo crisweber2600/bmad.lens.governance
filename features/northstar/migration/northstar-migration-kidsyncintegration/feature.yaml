@@ -4,7 +4,7 @@ featureId: northstar-migration-kidsyncintegration
 featureSlug: kidsyncintegration
 domain: northstar
 service: migration
-phase: expressplan
+phase: expressplan-complete
 track: express
 milestones:
   businessplan: null
