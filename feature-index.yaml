@@ -12,9 +12,8 @@ features:
     blocks: []
     related: []
   updated_at: '2026-04-08T20:34:05Z'
-  summary: >-
-    Migrate NorthStarET from AngularJS to React. EP-001 merged (S-001–S-007),
-    EP-002 open (PR #669).
+  summary: 'Migrate NorthStarET from AngularJS to React. EP-001 merged (S-001–S-007),
+    EP-002 open (PR #669).'
   stale: false
   migrated_from: northstar-migration-finish-northstaret-migration-3a10d3
 - id: 3261-students
@@ -33,3 +32,20 @@ features:
   summary: 'Migrated from legacy branch: northstar-nextgen-3261-students'
   stale: false
   migrated_from: northstar-nextgen-3261-students
+- featureId: northstar-migration-kidsyncintegration
+  id: northstar-migration-kidsyncintegration
+  name: KidSyncIntegration
+  featureSlug: kidsyncintegration
+  domain: northstar
+  service: migration
+  status: expressplan
+  track: express
+  owner: Cris Weber
+  plan_branch: northstar-migration-kidsyncintegration-plan
+  related_features:
+    depends_on: []
+    blocks: []
+    related: []
+  created: '2026-05-16T16:55:52Z'
+  updated_at: '2026-05-16T16:55:52Z'
+  summary: ''

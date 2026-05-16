@@ -1,0 +1,9 @@
+kind: service
+id: northstar-migration
+name: migration
+domain: northstar
+service: migration
+status: active
+owner: Cris Weber
+created: '2026-05-16T16:55:52Z'
+updated: '2026-05-16T16:55:52Z'
