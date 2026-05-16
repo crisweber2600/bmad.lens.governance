@@ -38,7 +38,7 @@ features:
   featureSlug: kidsyncintegration
   domain: northstar
   service: migration
-  status: expressplan
+  status: expressplan-complete
   track: express
   owner: Cris Weber
   plan_branch: northstar-migration-kidsyncintegration-plan
@@ -49,3 +49,4 @@ features:
   created: '2026-05-16T16:55:52Z'
   updated_at: '2026-05-16T16:55:52Z'
   summary: ''
+  phase: expressplan-complete
