@@ -1,0 +1,9 @@
+kind: service
+id: bridge-clever
+name: clever
+domain: bridge
+service: clever
+status: active
+owner: ''
+created: '2026-05-16T16:27:38Z'
+updated: '2026-05-16T16:27:38Z'
