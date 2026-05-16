@@ -18,7 +18,13 @@ team:
 dependencies:
   depends_on: []
   depended_by: []
-target_repos: []
+target_repos:
+- name: clever-demo-app
+  local_path: TargetProjects/bridge/clever/clever-demo-app
+  role: target
+- name: NorthStarET
+  local_path: TargetProjects/bridge/clever/NorthStarET
+  role: target
 links:
   retrospective: null
   issues: []
