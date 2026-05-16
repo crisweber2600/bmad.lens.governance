@@ -1,0 +1,42 @@
+scanned_at: "2026-02-26T00:00:00Z"
+scanned_by: "Cris Weber"
+
+repos:
+  matched:
+    - name: NorthStarET
+      domain: NorthStar
+      service: migration
+      local_path: "TargetProjects/northstar/migration/NorthStarET"
+      remote: "https://github.com/crisweber2600/NorthStarET"
+      github_domain: github.com
+      status: present
+      branch: main
+      commit: d0893153a12e4e69af180e9a419fbd92b4c23462
+      last_documented: "2026-02-26T00:00:00Z"
+      docs_path: "docs/lens-sync/NorthStarET"
+      metrics:
+        tsx_components: 251
+        controllers: 35
+        migration_progress: "45%"
+
+    - name: OldNorthStar
+      domain: NorthStar
+      service: migration
+      local_path: "TargetProjects/northstar/migration/OldNorthStar"
+      remote: "https://github.com/crisweber2600/OldNorthStar"
+      github_domain: github.com
+      status: present
+      branch: master
+      commit: a77f66e25f0cc7953b5791bbbd211a2aba2cecba
+      last_documented: "2026-02-26T00:00:00Z"
+      docs_path: "docs/lens-sync/OldNorthStar"
+
+  missing: []
+  extra: []
+
+summary:
+  matched: 2
+  missing: 0
+  extra: 0
+  github_domains:
+    - github.com

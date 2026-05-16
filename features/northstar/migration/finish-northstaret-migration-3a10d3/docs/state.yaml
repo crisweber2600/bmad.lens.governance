@@ -1,0 +1,30 @@
+# v2 — Lifecycle Contract personal state
+lifecycle_version: 2
+lens_contract_version: "2.0"
+
+active_initiative: finish-northstaret-migration-3a10d3
+# For feature-layer: active_initiative = generated ID
+# Load via: initiatives/finish-northstaret-migration-3a10d3.yaml
+
+# v2: Named phase tracking
+current_phase: sprintplan
+active_track: feature
+workflow_status: pending
+
+# v2: Phase status (dual-written to initiative config)
+phase_status:
+  preplan: complete
+  businessplan: complete
+  techplan: complete
+  devproposal: complete
+  sprintplan: null
+
+# v2: Audience promotion status
+audience_status:
+  small_to_medium: complete
+  medium_to_large: complete
+  large_to_base: complete
+
+background_errors: []
+created_at: "2026-02-25T00:00:00Z"
+last_activity: "2026-03-02T02:00:00Z"
