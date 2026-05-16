@@ -32,16 +32,16 @@ features:
   summary: 'Migrated from legacy branch: northstar-nextgen-3261-students'
   stale: false
   migrated_from: northstar-nextgen-3261-students
-- featureId: northstar-migration-kidsyncintegration
-  id: northstar-migration-kidsyncintegration
-  name: KidSyncIntegration
-  featureSlug: kidsyncintegration
-  domain: northstar
-  service: migration
+- featureId: bridge-clever-sso
+  id: bridge-clever-sso
+  name: SSO
+  featureSlug: sso
+  domain: bridge
+  service: clever
   status: expressplan-complete
   track: express
   owner: Cris Weber
-  plan_branch: northstar-migration-kidsyncintegration-plan
+  plan_branch: bridge-clever-sso-plan
   related_features:
     depends_on: []
     blocks: []

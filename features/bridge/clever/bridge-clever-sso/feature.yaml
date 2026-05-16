@@ -1,9 +1,9 @@
-name: KidSyncIntegration
+name: SSO
 description: ''
-featureId: northstar-migration-kidsyncintegration
-featureSlug: kidsyncintegration
-domain: northstar
-service: migration
+featureId: bridge-clever-sso
+featureSlug: sso
+domain: bridge
+service: clever
 phase: expressplan-complete
 track: express
 milestones:
@@ -31,5 +31,5 @@ phase_transitions:
   timestamp: '2026-05-16T16:55:52Z'
   user: Cris Weber
 docs:
-  path: docs/northstar/migration/northstar-migration-kidsyncintegration
-  governance_docs_path: features/northstar/migration/northstar-migration-kidsyncintegration/docs
+  path: docs/bridge/clever/bridge-clever-sso
+  governance_docs_path: features/bridge/clever/bridge-clever-sso/docs
