@@ -33,3 +33,7 @@ repositories:
   remote_url: https://github.com/crisweber2600/bmad.lens.governance
   local_path: TargetProjects/lens/lens-governance
   feature_base_branch: ''
+- name: clever-demo-app
+  remote_url: https://github.com/crisweber2600/clever-demo-app
+  local_path: TargetProjects/bridge/clever/clever-demo-app
+  feature_base_branch: ''
