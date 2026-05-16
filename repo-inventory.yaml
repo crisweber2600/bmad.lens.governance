@@ -1,46 +1,35 @@
-# repo-inventory.yaml
-# Canonical repo inventory — maintained in governance repo
-# Migrated from: _bmad-output/lens-work/repo-inventory.yaml
-# Migration date: 2026-02-26T00:00:00Z
-# Updated: 2026-02-27T00:00:00Z
-
-scanned_at: "2026-02-27T00:00:00Z"
-scan_source: "_bmad/lens-work/service-map.yaml"
+scanned_at: '2026-02-27T00:00:00Z'
+scan_source: _bmad/lens-work/service-map.yaml
 target_projects_path: ../TargetProjects
-
 summary:
   matched: 2
   missing: 0
   extra: 0
   total_in_service_map: 2
   total_in_target_projects: 2
-
-repos:
-  matched:
-    - name: NorthStarET
-      domain: NorthStar
-      layer: service
-      local_path: TargetProjects/northstar/migration/NorthStarET
-      remote_url: https://github.com/crisweber2600/NorthStarET
-      default_branch: main
-      role: target
-      status: active
-      notes: "Migration target — React/TypeScript frontend replacing OldNorthStar"
-
-    - name: OldNorthStar
-      domain: NorthStar
-      layer: service
-      local_path: TargetProjects/northstar/migration/OldNorthStar
-      remote_url: https://github.com/crisweber2600/OldNorthStar
-      default_branch: master
-      role: target
-      status: legacy
-      notes: "Legacy system being migrated to NorthStarET — read-only reference"
-
-  missing: []
-  # Repos listed in service-map.yaml but not found in TargetProjects
-  # Add repos to service-map.yaml and run '@lens reconcile' to clone them
-
-  extra: []
-  # Repos found in TargetProjects but not listed in service-map.yaml
-  # Add them to service-map.yaml to track them, or leave untracked
+repositories:
+- name: NorthStarET
+  domain: NorthStar
+  layer: service
+  local_path: TargetProjects/northstar/migration/NorthStarET
+  remote_url: https://github.com/crisweber2600/NorthStarET
+  default_branch: main
+  role: target
+  status: active
+  notes: Migration target - React/TypeScript frontend replacing OldNorthStar
+  local_paths:
+  - TargetProjects/northstar/migration/NorthStarET
+  - TargetProjects/bridge/clever/NorthStarET
+- name: OldNorthStar
+  domain: NorthStar
+  layer: service
+  local_path: TargetProjects/northstar/migration/OldNorthStar
+  remote_url: https://github.com/crisweber2600/OldNorthStar
+  default_branch: master
+  role: target
+  status: legacy
+  notes: Legacy system being migrated to NorthStarET - read-only reference
+- name: lens-governance
+  remote_url: https://github.com/crisweber2600/bmad.lens.governance
+  local_path: TargetProjects/lens/lens-governance
+  feature_base_branch: ''
