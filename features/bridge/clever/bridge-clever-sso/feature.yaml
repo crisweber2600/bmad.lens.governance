@@ -4,7 +4,7 @@ featureId: bridge-clever-sso
 featureSlug: sso
 domain: bridge
 service: clever
-phase: finalizeplan-complete
+phase: dev-complete
 track: express
 milestones:
   businessplan: null
