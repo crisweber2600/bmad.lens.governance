@@ -37,3 +37,7 @@ repositories:
   remote_url: https://github.com/crisweber2600/clever-demo-app
   local_path: TargetProjects/bridge/clever/clever-demo-app
   feature_base_branch: main
+- name: Student
+  remote_url: https://northstaret@dev.azure.com/northstaret/NorthStarET/_git/Student
+  local_path: TargetProjects/nextgen/student/Student
+  feature_base_branch: ''
