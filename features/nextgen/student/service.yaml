@@ -1,0 +1,9 @@
+kind: service
+id: nextgen-student
+name: Student
+domain: nextgen
+service: student
+status: active
+owner: ''
+created: '2026-05-17T16:15:30Z'
+updated: '2026-05-17T16:15:30Z'
