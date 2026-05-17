@@ -4,7 +4,7 @@ featureId: nextgen-student-inital
 featureSlug: inital
 domain: nextgen
 service: student
-phase: preplan
+phase: preplan-complete
 track: full
 milestones:
   businessplan: null

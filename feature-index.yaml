@@ -56,7 +56,7 @@ features:
   featureSlug: inital
   domain: nextgen
   service: student
-  status: preplan
+  status: preplan-complete
   track: full
   owner: Cris Weber
   plan_branch: nextgen-student-inital-plan
@@ -67,3 +67,4 @@ features:
   created: '2026-05-17T16:20:34Z'
   updated_at: '2026-05-17T16:20:34Z'
   summary: ''
+  phase: preplan-complete
