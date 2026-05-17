@@ -1,0 +1,35 @@
+name: inital
+description: ''
+featureId: nextgen-student-inital
+featureSlug: inital
+domain: nextgen
+service: student
+phase: preplan
+track: full
+milestones:
+  businessplan: null
+  techplan: null
+  finalizeplan: null
+  dev-ready: null
+  dev-complete: null
+team:
+- username: Cris Weber
+  role: lead
+dependencies:
+  depends_on: []
+  depended_by: []
+target_repos: []
+links:
+  retrospective: null
+  issues: []
+  pull_request: null
+priority: medium
+created: '2026-05-17T16:20:34Z'
+updated: '2026-05-17T16:20:34Z'
+phase_transitions:
+- phase: preplan
+  timestamp: '2026-05-17T16:20:34Z'
+  user: Cris Weber
+docs:
+  path: docs/nextgen/student/nextgen-student-inital
+  governance_docs_path: features/nextgen/student/nextgen-student-inital/docs

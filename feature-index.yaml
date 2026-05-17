@@ -50,3 +50,20 @@ features:
   updated_at: '2026-05-16T16:55:52Z'
   summary: ''
   phase: dev-complete
+- featureId: nextgen-student-inital
+  id: nextgen-student-inital
+  name: inital
+  featureSlug: inital
+  domain: nextgen
+  service: student
+  status: preplan
+  track: full
+  owner: Cris Weber
+  plan_branch: nextgen-student-inital-plan
+  related_features:
+    depends_on: []
+    blocks: []
+    related: []
+  created: '2026-05-17T16:20:34Z'
+  updated_at: '2026-05-17T16:20:34Z'
+  summary: ''
